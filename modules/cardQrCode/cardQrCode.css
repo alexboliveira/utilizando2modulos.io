@@ -1,0 +1,49 @@
+/*modules template_001*/
+.cardQrCode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardQrCode .box{
+    width: 320px;
+    height: 497px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    box-shadow: 2px 2px 2px 1px gray;
+    
+}
+
+.cardQrCode .box img{
+    width: 288px;
+    height: 288px;
+    margin-top: 16px;
+    margin-left: 16px;
+    border-radius: 10px;
+
+    
+}
+
+.cardQrCode .box .boxText{
+    width: 288px;
+    height: 129px;
+    background-color: none;
+    margin-left: 16px;
+    
+}
+
+.cardQrCode .box .boxText h1{
+    font-size: 22px;
+    text-align: center;
+}
+
+.cardQrCode .box .boxText h2{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 16px;
+    color:grey;
+    font-stretch:ultra-condensed;
+}

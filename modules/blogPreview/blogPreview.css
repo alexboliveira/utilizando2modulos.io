@@ -1,0 +1,99 @@
+/*modules BlogPreview*/
+
+@font-face{
+    font-family: 'Figtree-VariableFont';
+    src:url(../blogPreview/font/Figtree-Italic-VariableFont_wght.ttf);
+
+}
+
+@font-face{
+    font-family: 'Figtree-ExtraBold';
+    src: url(../blogPreview/font/Figtree-ExtraBold.ttf);
+}
+
+
+.blogPreview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogPreview .box{
+    width: 384px;
+    height: 522px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 4px 1px black;
+    
+}
+
+.blogPreview .box img#princ{
+    width: auto;
+    height: 200px;
+    margin:24px;
+    border-radius: 10px;
+    
+
+    
+}
+
+.blogPreview .box .boxText{
+    width: auto;
+    height: auto;
+    background-color: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    
+}
+
+.blogPreview .box .boxText span{
+    background-color: #F4D04E;
+    font-family: 'Figtree-VariableFont' !important;
+}
+
+.blogPreview .box .boxText p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: 'Figtree-VariableFont' !important;
+
+}
+
+.blogPreview .box .boxText h1{
+    font-family: 'Figtree-ExtraBold' !important;
+    
+}
+
+.blogPreview .box .boxText h2{
+    font-family: 'Figtree-VariableFont' !important;
+    font-size: 15px;
+    margin-top: 16px;
+    color:grey;
+    
+}
+
+
+.blogPreview .box .autor{
+    display: flex;
+    width: calc(129px + 24px);
+    height:32px;
+    margin-top: 12px;
+    margin-left: 24px;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Figtree-VariableFont' !important;
+    
+    
+}
+
+.blogPreview .box .autor img{
+    height: 32px;
+    width: 32px;
+}
+
+.blogPreview .box .autor h3{
+    font-size: 12px;
+   
+}
